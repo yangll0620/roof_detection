@@ -224,6 +224,7 @@ dependencies:
   - zlib=1.2.13=h5a0b063_0
   - zstd=1.5.5=hd90d995_0
   - pip:
+      - opencv-python==4.9.0.80
       - tensorflow-io==0.36.0
       - tensorflow-io-gcs-filesystem==0.36.0
       - tf-slim==1.1.0
