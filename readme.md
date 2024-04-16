@@ -19,7 +19,7 @@ Down the SSD ResNet50 V1 FPN 640x640  model from [TensorFlow 2 Detection Model Z
 
 ### Workspace Director
 
-<img width="405" alt="Screen Shot 2024-04-16 at 11 55 44 AM" src="https://github.com/yangll0620/roof_detection/assets/15356284/8b9d19bc-2c30-4040-8963-61e5e747927d">
+<img width="405" alt="Screen Shot 2024-04-16 at 11 55 44 AM" src="workdir_tree.png">
 
 
 ## Run
