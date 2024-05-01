@@ -32,7 +32,8 @@ def plot_detection(image_np, boxes, classes, scores, category_index, min_score_t
         scores,
         category_index,
         use_normalized_coordinates = True,
-        min_score_thresh = min_score_thresh
+        min_score_thresh = min_score_thresh,
+        max_boxes_to_draw = None
     )
     
     if image_name:
