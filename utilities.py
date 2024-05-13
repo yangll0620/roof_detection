@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import numpy as np
 
-
 from object_detection.utils import visualization_utils as viz_utils
 
 
@@ -40,3 +39,4 @@ def plot_detection(image_np, boxes, classes, scores, category_index, min_score_t
         plt.imsave(image_name, image_np_with_annotations)
     else:
         plt.imshow(image_np_with_annotations)
+

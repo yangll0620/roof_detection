@@ -15,7 +15,7 @@ conda env export > environment.yml
 ```
 
 ### Pretrained_model
-Down the SSD ResNet50 V1 FPN 640x640  model from [TensorFlow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md), unzip and put inside models/pretrain_models
+Download the SSD ResNet50 V1 FPN 640x640  model from [TensorFlow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md), unzip and put inside models/pretrain_models
 
 ### Workspace Director
 
