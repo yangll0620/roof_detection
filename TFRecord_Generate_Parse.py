@@ -100,6 +100,8 @@ def create_tf_record(output_file, xml_dir, image_dir, image_suffix = 'jpg'):
             # Create TF example
             tf_example = create_tf_example(xml_file, image_file, class_name2labels = class_labels)
             writer.write(tf_example.SerializeToString())
+    
+    print(f"Generated TFRecord File: {output_file}")
 
 
 
